@@ -4,10 +4,10 @@
     id        = "com.phonegap.example"
     version   = "1.0.0">
 
-<name>Orsan</name>
+<name>Chocodiccionario</name>
 
 <description>
-Orsan Aplicacion.
+El Chocodiccionario.
 </description>
 <preference name="show-splash-screen-spinner" value="false" />
 <icon src="icon.png" />
