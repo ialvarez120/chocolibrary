@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Orsan</name>
+
+<description>
+Orsan Aplicacion.
+</description>
+<preference name="show-splash-screen-spinner" value="false" />
+<icon src="icon.png" />
+<gap:splash src="splash.png" />
+
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<author href="http://tobepublicidad.com" email="agencia@tobe.mx">
+Tobe Publicidad
+</author>
+<access origin="http://www.chocodiccionario.com/" subdomains="true"/>
+
+</widget>

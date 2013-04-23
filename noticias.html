@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Hello PhoneGap</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta charset="utf-8">
+
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/> 
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/> 
+<link href="jquery-mobile/orsan.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="cordova-2.1.0.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+        function onBodyLoad()
+        {       
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady()
+        {
+            // do your thing!
+            navigator.notification.alert("PhoneGap is working")
+        }
+
+        </script>
+    </head>
+    <body onload="onBodyLoad()">
+    <div data-role="page" id="locations" data-title="Find a Locations">
+            <div data-role="header">
+                <h1>Noticias</h1>
+                <a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="notext">back</a>
+            </div>
+            <div data-role="content">
+                <p>Informacion de primera mano para ti.</p>
+                <h2>Noticias</h2>
+                <ul data-role="listview" data-filter="true" data-inset="true" class="countries">
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7891">Albania</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7892">Algeria</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7893">Argentina</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7894">Belgium</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7895">Belize</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7896">Bulgaria</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7897">Canada</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7898">Croatia</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7899">Cyprus</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7890">Czech Republic</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7891">Denmark</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7892">Estonia</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7893">Finland</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7894">Germany</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7895">Ghana</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7896">India</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7897">Indonesia</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7898">Jamaica</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7899">Japan</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7890">Libya</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7891">Lithuania</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7891">Ukraine</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7892">United Arab Emirates</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7893">United Kingdom</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7894">United States of America</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7895">Yemen</a></li>
+                    <li><a class="location" href="#contact_us" data-phone="123-456-7896">Yugoslavia</a></li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <a href="#home" data-role="button" data-icon="home">Home</a>
+                    <a href="#contact_us" data-role="button" data-icon="grid">Contact Us</a>
+                </div>
+                <h4>©2013 Orsan</h4>
+            </div>
+        </div>
+    </body>
+</html>
+

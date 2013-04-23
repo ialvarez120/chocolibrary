@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+	<plugin name="Device" value="com.phonegap.Device" />
+	<plugin name="Geolocation" value="com.phonegap.GeoBroker"/>
+	<plugin name="VideoPlayer" value="com.phonegap.plugins.video.VideoPlayer"/>
+</plugins>
